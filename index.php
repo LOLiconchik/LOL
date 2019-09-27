@@ -24,8 +24,6 @@ if ($page === 1) {
 if ($page < $totalPages - 1) {
     $hasNextLink = true;
 }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
