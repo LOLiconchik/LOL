@@ -1,6 +1,7 @@
-*{
+* {
 	box-sizing: border-box;
 }
+
 body {
 	font-family: sans-serif;
 	font-size: 16px;
@@ -22,7 +23,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	max-width: 960px;
-	width: 100%;	
+	width: 100%;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -221,16 +222,20 @@ body {
 	justify-content: space-between;
 	width: auto;
 }
-.main .item{
+
+.main .item {
 	width: calc((100% / 3) - 14px);
 }
+
 .item {
 	display: flex;
 	flex-flow: column nowrap;
 }
+
 .sub-item-hover {
 	color: #ffffff;
 }
+
 .sub-item-hover .bold {
 	font-weight: bold;
 }
@@ -240,7 +245,8 @@ body {
 	position: relative;
 	margin-bottom: 20px;
 }
-.sub-item img{
+
+.sub-item img {
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -250,7 +256,7 @@ body {
 	object-fit: inherit;
 }
 
-.sub-item-hover{
+.sub-item-hover {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -261,7 +267,8 @@ body {
 	transition: 0.5s;
 	opacity: 0;
 }
-.wrap-sub-item-hover{
+
+.wrap-sub-item-hover {
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
@@ -270,11 +277,13 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
 .wrap-sub-item-hover span.bold {
 	padding-top: 50px;
 	display: flex;
 	text-align: center;
 }
+
 .wrap-sub-item-hover p {
 	text-align: center;
 	margin-top: inherit;
@@ -317,11 +326,11 @@ body {
 
 .hoverImg7 {
 	padding-top: 130%;
-} 
+}
 
 .hoverImg8 {
 	padding-top: 150%;
-} 
+}
 
 .menu-works a:hover {
 	color: #e08e19;
@@ -350,6 +359,7 @@ body {
 .comments {
 	background-color: #000000;
 }
+
 .comments {
 	width: 100%;
 	max-width: 960px;
@@ -386,7 +396,6 @@ body {
 
 .d-td {
 	display: table-cell;
-	text-wrap: normal;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 20px;
@@ -410,6 +419,7 @@ body {
 	background-color: #ff9800;
 	border-radius: 10px;
 }
+
 .pages a:hover {
 	color: #382a79;
 }
@@ -523,6 +533,7 @@ textarea:focus {
 a.icon {
 	color: #f2f2f2;
 }
+
 .im-facebook:hover {
 	color: #4a639a;
 }
@@ -575,6 +586,7 @@ a.icon {
 	color: #828282;
 	text-align: center;
 }
+
 .page-footer .letter-with {
 	background-position: center;
 	background-image: url("/img/heart.png");
