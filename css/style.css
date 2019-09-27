@@ -58,6 +58,8 @@ body {
 }
 
 .main-menu a {
+	display: flex;
+	align-items: end;
 	font-size: 15px;
 	color: #ffffff;
 	text-decoration: none;
@@ -345,18 +347,85 @@ body {
 	background-color: #ff9800;
 }
 
-.to-mail {
+.comments {
 	background-color: #000000;
 }
-
-.to-mail-h {
+.comments {
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 
-.header-to-mail {
+.comments__wrapper {
+	color: #ffffff;
+}
+
+.header__comments {
+	padding-top: 100px;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.d-table {
+	background-color: #354053;
+	border: 2px solid #354053;
+	border-radius: 10px;
+	display: block;
+	width: 100%;
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 0 10px;
+	border-collapse: collapse;
+}
+
+.d-tr {
+	display: table-row;
+}
+
+.d-td {
+	display: table-cell;
+	text-wrap: normal;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	border: 2px solid gray;
+}
+
+.pages {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.pages a {
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 15px;
+	padding: 10px 35px;
+	border: none;
+	color: #ffffff;
+	background-color: #ff9800;
+	border-radius: 10px;
+}
+.pages a:hover {
+	color: #382a79;
+}
+
+.add__comment {
+	background-color: #000000;
+}
+
+.add__comment-h {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header-add__comment {
 	padding-top: 100px;
 	font-size: 25px;
 	text-align: center;
@@ -418,7 +487,12 @@ textarea:focus {
 	border: none;
 	color: #ffffff;
 	background-color: #ff9800;
-	border-radius: 0px;
+	border-radius: 10px;
+}
+
+.sent-mail .button:hover {
+	border: 2px solid black;
+	border-radius: 2px;
 }
 
 .follow-me {

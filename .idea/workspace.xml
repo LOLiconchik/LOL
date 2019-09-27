@@ -20,7 +20,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../localhost" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -40,9 +41,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +62,10 @@
       <workItem from="1568987598043" duration="3965000" />
       <workItem from="1568995539037" duration="8710000" />
       <workItem from="1569222181404" duration="31000" />
+      <workItem from="1569224555712" duration="23045000" />
+      <workItem from="1569309246234" duration="22191000" />
+      <workItem from="1569565756740" duration="3135000" />
+      <workItem from="1569569203711" duration="16210000" />
     </task>
     <servers />
   </component>
