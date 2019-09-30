@@ -37,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../localhost" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +83,11 @@
       <workItem from="1569565756740" duration="3135000" />
       <workItem from="1569569203711" duration="17587000" />
       <workItem from="1569591130820" duration="1404000" />
-      <workItem from="1569592722733" duration="2835000" />
+      <workItem from="1569592722733" duration="3223000" />
+      <workItem from="1569599023743" duration="277000" />
+      <workItem from="1569599344833" duration="893000" />
+      <workItem from="1569824873318" duration="94000" />
+      <workItem from="1569825275990" duration="1751000" />
     </task>
     <servers />
   </component>
