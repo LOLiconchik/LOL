@@ -31,7 +31,6 @@ if ($page < $totalPages - 1) {
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/iconmonstr-iconic-font.css">
-	<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js></script>
 	<title>Brand</title>
 </head>
 <body>
