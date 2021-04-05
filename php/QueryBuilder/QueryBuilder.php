@@ -6,9 +6,9 @@ class QueryBuilder
     static private $instance = null;
     private $pdo;
     private $host = '127.0.0.1';
-    private $tableName = 'kostya';
-    private $dbUserName = 'root';
-    private $dbPassword = 'h4PTCZJGhmk4kWv8';
+    private $tableName = '';
+    private $dbUserName = '';
+    private $dbPassword = '';
 
     private function __construct()
     {
